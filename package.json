@@ -1,22 +1,30 @@
 {
-  "name": "micon-font",
+  "name": "@morteza-jamali/micon-font",
   "version": "3.0.168",
   "style": "dist/micon/css/micon.css",
   "description": "Micon, The iconic windows 10 font and CSS toolkit.",
-  "keywords": ["Micon", "MDL2 icons", "MDL2 web font", "icon", "font", "bootstrap", "windows 10", "windows 10 icons", "windows 10 css", "windows 10 css icons", "windows 10 web font"],
+  "keywords": [
+    "Micon",
+    "MDL2 icons",
+    "MDL2 web font",
+    "icon",
+    "font",
+    "bootstrap",
+    "windows 10",
+    "windows 10 icons",
+    "windows 10 css",
+    "windows 10 css icons",
+    "windows 10 web font"
+  ],
   "homepage": "http://xtoolkit.github.io/Micon/",
   "bugs": {
-    "url": "http://github.com/xtoolkit/Micon/issues"
+    "url": "https://github.com/morteza-jamali/Micon/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/xtoolkit/Micon.git"
+    "url": "git+https://github.com/morteza-jamali/Micon.git"
   },
-  "author": {
-    "name": "Mehdi HosseinZade",
-    "email": "arshen@outlook.com",
-    "web": "http://arshen.ir/"
-  },
+  "author": "Mehdi HosseinZade <arshen@outlook.com> (http://arshen.ir/)",
   "license": "MIT",
   "devDependencies": {
     "gulp": "^4.0",
@@ -28,5 +36,6 @@
   },
   "scripts": {
     "start": "gulp mimake"
-  }
+  },
+  "main": "gulpfile.js"
 }
