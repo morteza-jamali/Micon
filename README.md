@@ -22,9 +22,21 @@ example:
 </head>
 ```
 
-### Option one: install with bower
+### Option one: install with NPM
 
-To install via Bower, simply do the following:
+To install via NPM, simply do the following:
+
+```
+$ npm install @morteza-jamali/micon-font --save
+```
+
+### Option two: install with Yarn
+
+```
+$ yarn add @morteza-jamali/micon-font --save
+```
+
+### Option three: install with bower
 
 ```
 $ bower install micon --save
